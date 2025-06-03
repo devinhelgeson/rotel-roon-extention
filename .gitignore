@@ -1,0 +1,6 @@
+.env
+node_modules
+roon-api
+roon-api-transport
+.env
+config.json
