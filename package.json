@@ -1,0 +1,18 @@
+{
+  "name": "roon-extension-rotel-rs232",
+  "version": "1.0.0",
+  "description": "Roon extension to control Rotel RA-1570 over RS232",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "node-roon-api": "github:roonlabs/node-roon-api",
+    "node-roon-api-settings": "github:roonlabs/node-roon-api-settings",
+    "node-roon-api-status": "github:roonlabs/node-roon-api-status",
+    "node-roon-api-volume-control": "github:roonlabs/node-roon-api-volume-control",
+    "serialport": "^10.5.0"
+  }
+}
